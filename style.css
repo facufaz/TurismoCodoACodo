@@ -1,3 +1,10 @@
 .body {
   background-image: url(./utilities/CONTACTO.png);
+  background-size: cover;
+  height: 100vh;
+
+  /* height: 100%; */
+}
+.logo img {
+  border-radius: 100%;
 }
