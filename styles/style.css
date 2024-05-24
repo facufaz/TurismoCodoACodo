@@ -1,0 +1,62 @@
+
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+li,
+u,
+em {
+  font-size: 1.2em;
+  line-height: 1em;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit !important;
+  font-size: inherit;
+  cursor: pointer;
+}
+.logo img {
+  height: 5rem;
+  border-radius: 100%;
+}
+.header {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem; 
+  margin-right: 3rem;
+}
+.list a {
+  color: inherit;
+  text-decoration: none;
+}
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+.top-home img{
+width: 100%;
+margin-top: 0.5rem;
+}
