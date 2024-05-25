@@ -6,10 +6,7 @@ const area = document.getElementById("inputSeleccion");
 const errorMensaje = document.getElementById("errorMensaje");
 var numeros="0123456789";
 
-<<<<<<< HEAD
-=======
 // limpiar las cajas
->>>>>>> a388a0aed42520f58d2719875542e18896c8337b
 function borrar_contenido(){
     // nombre.innerHTML="";
     // apellido.innerHTML="";
@@ -19,6 +16,7 @@ function borrar_contenido(){
     // mensaje.innerHTML="";
     formulario.reset();
     errorMensaje.innerHTML="";
+    errorMensaje.hidden = true;
     nombre.focus();
 }
 
@@ -61,6 +59,7 @@ formulario.addEventListener("submit", e=>{
         enviar_ok=true
     }
     if(enviar_ok){
+        errorMensaje.hidden = false;
         errorMensaje.innerHTML = error
     }else{
         formulario.submit()
