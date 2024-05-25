@@ -45,8 +45,10 @@ a {
 .list {
   list-style-type: none;
   display: flex;
-  gap: 1rem; 
+  gap: 3rem; 
   margin-right: 3rem;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 .list a {
   color: inherit;
