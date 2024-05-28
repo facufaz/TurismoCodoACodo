@@ -1,4 +1,4 @@
-
+/*
 html {
   scroll-behavior: smooth;
 }
@@ -92,4 +92,130 @@ margin-top: 0.5rem;
 }
 .name{
 
+}
+*/
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.body {
+  background-image: url(./utilities/CONTACTO.png);
+  background-size: cover;
+  height: 100vh;
+  font-size: 25px;
+  
+  /* height: 100%; */
+}
+/*.logo img {
+  border-radius: 100%;
+  width: 15vh;
+  height: 15vh;
+  display: flex;
+}*/
+.menu{
+  padding: 0 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  display: flex;
+  background-color: transparent;
+}
+.menu ul{
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 590px;
+}
+.menu li a{
+  text-decoration: none;
+  padding-inline: 2rem;
+  color: #F8F1F1;
+}
+.logo img{
+  width: 6vw;
+  height: auto;
+}
+/*.top-home{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+*/  
+.header-container{
+  height: auto;
+  background-image: url(../utilities/home.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #F8F1F1;
+}
+.header-container h1{
+  padding-top: 100px;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+.header-container p{
+  padding-bottom: 40px;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: #F8F1F1;
+}
+.bottom-home{
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  background-color: #F8F1F1;
+}
+.bottom-home img{
+  display: grid;
+  padding-left: 25vh;
+;
+}
+.bottom-home .hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding-top: 15vh;
+  padding-right: 25vh;
+
+}
+.bottom-home .hero h2{
+  font-family: "Poppins",sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+}
+.bottom-home .hero h4{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+footer{
+  background-color: #22242B;
+  display: grid;
+}
+footer ul li a{
+  text-decoration: none;
+  color: #F8F1F1;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+footer ul{
+  display: flex;
+  list-style: none;
 }
