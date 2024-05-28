@@ -1,0 +1,46 @@
+.header-nosotros{
+    height: auto;
+
+    background-color: #34525a;
+    text-align: center;
+    color: #f3f3d6;
+  }
+  main{
+    background-color:#ebebe79d;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+gap: 2rem;
+    padding:7rem;
+    padding-bottom: 9.5rem;
+  }
+  main h1{
+    margin-bottom: 2rem;
+  }
+  main h3{
+    font-size: 20;
+    max-width: 40rem;
+    margin-bottom: 4rem;
+  }
+  .faces{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+  .cara{
+    background-image: url(../utilities/cara.jpeg);
+    background-size: 5rem;
+    border-radius: 50px;
+  }
+  .face{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nosotros-img{
+    background-image: url(../utilities/webp/nosotros.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30;
+   }
