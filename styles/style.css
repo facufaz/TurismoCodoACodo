@@ -37,6 +37,8 @@ a {
   border-radius: 100%;
 }
 .header {
+  position: absolute;
+  width: 100%;
   display: flex;
   margin-top: 1rem;
   justify-content: space-between;
@@ -61,4 +63,33 @@ a {
 .top-home img{
 width: 100%;
 margin-top: 0.5rem;
+}
+
+
+
+
+
+.bottom-home{
+
+}
+.hero{
+
+}
+.btn{
+
+}
+.footer{
+
+}
+.nav{
+
+}
+.credits{
+
+}
+.name{
+
+}
+.name{
+
 }
