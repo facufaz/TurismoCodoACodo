@@ -1,100 +1,3 @@
-/*
-html {
-  scroll-behavior: smooth;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span,
-a,
-strong,
-blockquote,
-i,
-b,
-li,
-u,
-em {
-  font-size: 1.2em;
-  line-height: 1em;
-  font-weight: inherit;
-  font-style: inherit;
-  text-decoration: none;
-  color: inherit;
-}
-a {
-  display: block;
-  text-decoration: none;
-  color: inherit !important;
-  font-size: inherit;
-  cursor: pointer;
-}
-.logo img {
-  height: 5rem;
-  border-radius: 100%;
-}
-.header {
-  position: absolute;
-  width: 100%;
-  display: flex;
-  margin-top: 1rem;
-  justify-content: space-between;
-  align-items: center;
-}
-.list {
-  list-style-type: none;
-  display: flex;
-  gap: 3rem; 
-  margin-right: 3rem;
-  font-size: 1.5rem;
-  font-weight: 800;
-}
-.list a {
-  color: inherit;
-  text-decoration: none;
-}
-.footer {
-  margin-top: 2rem;
-  text-align: center;
-}
-.top-home img{
-width: 100%;
-margin-top: 0.5rem;
-}
-
-
-
-
-
-.bottom-home{
-  hola;
-}
-.hero{
-
-}
-.btn{
-
-}
-.footer{
-
-}
-.nav{
-
-}
-.credits{
-
-}
-.name{
-
-}
-.name{
-
-}
-*/
-
 
 *{
   padding: 0;
@@ -107,14 +10,9 @@ margin-top: 0.5rem;
   height: 100vh;
   font-size: 25px;
   
-  /* height: 100%; */
+  
 }
-/*.logo img {
-  border-radius: 100%;
-  width: 15vh;
-  height: 15vh;
-  display: flex;
-}*/
+
 .menu{
   padding: 0 50px;
   font-family: "Poppins", sans-serif;
@@ -139,13 +37,7 @@ margin-top: 0.5rem;
   width: 6vw;
   height: auto;
 }
-/*.top-home{
-  width: 100%;
-  height: 100%;
-  display: flex;
-  background-size: cover;
-  background-position: center;
-*/  
+
 .header-container{
   height: auto;
   background-image: url(../utilities/home.png);
