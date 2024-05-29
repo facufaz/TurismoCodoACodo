@@ -104,6 +104,9 @@ footer{
   background-color: #22242B;
   display: flex;
   height: 3.2rem;
+  margin: 0;
+  padding: 0;
+  width: 100%;
   
 }
 footer ul li a{
@@ -118,4 +121,24 @@ footer ul{
   align-items: center;
   gap: 3rem;
   list-style: none;
+}
+
+.destino img:hover{
+  transform: scale(1.2,1.2) rotate(-4deg);
+  transition-duration: 1s;
+}
+
+.destino-2 img:hover{
+  transform: scale(1.2,1.2) rotate(-4deg);
+  transition-duration: 1s;
+}
+
+.destino-3 img:hover{
+  transform: scale(1.2,1.2) rotate(-4deg);
+  transition-duration: 1s;
+}
+
+.destino-4 img:hover{
+  transform: scale(1.2,1.2) rotate(-4deg);
+  transition-duration: 1s;
 }
