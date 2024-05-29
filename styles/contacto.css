@@ -1,10 +1,21 @@
+body{
+  height: 133vh;
+  background-color: #c0c9d8;
+}
+
+section{
+  background-color: #c0c9d8;
+}
+
 .formulario_web {
      width: 80%;
     margin: auto;
-    margin-bottom: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
     background-size: cover;
     background-color: #ffffffb8;
-      padding: 0.5em;
+      padding: 0.25em;
       border: 1px solid #ddd;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       border-radius: 20px;
@@ -33,11 +44,11 @@
 }
 
 main{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     height: auto;
-    background-color: #dfe5f0;
- } 
+    background-color: #c0c9d8;
+ }
 
  .inst_iconos li{
     margin: 20px;

@@ -27,11 +27,25 @@ gap: 2rem;
     align-items: center;
     gap: 5rem;
   }
-  .cara{
+  .cara-1{
     background-image: url(../utilities/cara.jpeg);
     background-size: 5rem;
     border-radius: 50px;
   }
+/* Falta Agregar Foto */
+  .cara-2{
+    background-image: url(../utilities/cara.jpeg);
+    background-size: 5rem;
+    border-radius: 50px;
+  }
+
+  .cara-3{
+    background-image: url(../utilities/cara_3.jpg);
+    background-size: 5rem;
+    border-radius: 50px;
+  }
+
+
   .face{
     display: flex;
     flex-direction: column;
