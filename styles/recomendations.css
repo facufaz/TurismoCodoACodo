@@ -2,20 +2,29 @@
     display: flex;
     flex-direction: column;
     padding: 7.1rem;
-  
 }
 .paragraph{
     display: flex;
     flex-direction: row;
+    background-color: #f8f1f1;
 }
 .paragraph h3{
     padding-top: 1rem;
-    padding-left: 1rem;
+    padding-left: 0.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: normal;
 }
 main h3{
-    margin-bottom: 1.7rem;
+    margin-bottom: 0.5rem;
 }
 p{
     max-width: 21rem;
+    padding-left: 0.5rem;
     margin-right: 4rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
 }
