@@ -4,9 +4,12 @@ body{
 }
 
 section{
-  background-color: #c0c9d8;
+  background-color: transparent;
 }
-
+.header-container{
+  background-image: none;
+  background-color: #22242B;
+}
 .formulario_web {
      width: 80%;
     margin: auto;
@@ -22,8 +25,8 @@ section{
   }
 
   .formulario_web h2{
-    font-family: "Kanit", sans-serif;
-    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
     font-style: normal;
   }
   
@@ -55,7 +58,7 @@ main{
  }
 
  .contacto{
-    font-family: "Kanit", sans-serif;
+    font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
