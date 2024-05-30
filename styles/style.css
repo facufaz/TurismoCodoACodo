@@ -5,12 +5,10 @@
   box-sizing: border-box;
 }
 .body {
-  background-image: url(./utilities/CONTACTO.png);
+  background-image: url(../utilities/CONTACTO.png);
   background-size: cover;
   height: 100vh;
   font-size: 25px;
-  
-  
 }
 
 .menu{
@@ -20,7 +18,7 @@
   font-style: normal;
   display: flex;
   background-color: transparent;
-  font-size: 1.3rem;
+  font-size: 1rem;
 
 }
 .menu ul{
@@ -33,6 +31,8 @@
   text-decoration: none;
   padding-inline: 2rem;
   color: #F8F1F1;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .logo img{
   width: 6vw;
@@ -75,7 +75,6 @@
 .bottom-home img{
   display: grid;
   padding-left: 25vh;
-;
 }
 .bottom-home .hero{
   display: flex;
@@ -97,34 +96,49 @@
   font-style: normal;
   font-size: 16px;
 }
-.nav{
-  
-}
+
 footer{
   background-color: #22242B;
-  display: flex;
-  height: 3.2rem;
+  display: grid;
+  /*height: 3.2rem;
   margin: 0;
-  padding: 0;
   width: 100%;
   position:fixed;
   bottom: 0;
-  left: 0;
+  left: 0;*/
+  padding: 10px;
+  justify-content: center;
 }
-
+footer ul li{
+  display: inline-flex;
+  padding: 0 50px 10px;
+}
 footer ul li a{
   text-decoration: none;
   color: #F8F1F1;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
 }
 footer ul{
-  display: flex;
+  /*display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 3rem;*/
   list-style: none;
 }
+footer .social{
+  text-align: center;
+  padding: 0 50px;
+}
+footer .social a{
+  color: #F8F1F1;
+  display: inline-block;
+  font-size: 24px;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+}
+
 
 .destino img:hover{
   transform: scale(1.2,1.2) rotate(-4deg);
