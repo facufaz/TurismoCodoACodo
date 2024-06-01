@@ -6,28 +6,42 @@ body{
 section{
   background-color: transparent;
 }
-.header-container{
-  background-image: none;
+
+.header-contacto{
+  height: auto;
   background-color: #22242B;
+  text-align: center;
+  color: #f8f1f1;
 }
+
+.body_main{
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  background-image: url(../utilities/CONTACTO.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .formulario_web {
-     width: 80%;
+     width: 50%;
     margin: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 12px;
+    
+    margin-bottom: 2vw;
+    font-size: 1.2vw;
     background-size: cover;
     background-color: #ffffffb8;
       padding: 0.25em;
       border: 1px solid #ddd;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      border-radius: 20px;
+      border-radius: 0.5vw;
   }
 
   .formulario_web h2{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 1.5vw;
+    margin-left: 1.5vw;
   }
   
 #areaTexto {
@@ -65,5 +79,25 @@ main{
  }
 
 .contacto li{
-    margin: 10px;
+    margin: 0.05vw;
+    margin-left: 0.2vw;
+    font-size: 1.2vw;
+}
+
+.Mapa iframe{
+  width: 20vw;
+  height: 20vw;
+}
+
+.form-control{
+  font-size: 1.2vw;
+}
+.selector{
+  font-size: 1.2vw;
+}
+
+.btn{
+  width: 8vw;
+  font-size: 1.2vw;
+  margin-left: 2vw;
 }

@@ -7,40 +7,54 @@
 .body {
   background-image: url(../utilities/CONTACTO.png);
   background-size: cover;
-  height: 100vh;
+  /* height: 100vh; */
+  width: 100%;
   font-size: 25px;
+}
+main{
+  width: 100%;
 }
 
 .menu{
   padding: 0 50px;
+  width: 100%;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
   display: flex;
   background-color: transparent;
-  font-size: 1rem;
+  font-size: 0.6rem;
 
 }
+
+.logo {
+  width: 30%;
+}
+.menu_item{
+  width: 70%;
+}
+
 .menu ul{
   list-style: none;
   display: inline-flex;
-  align-items: center;
-  margin-left: 590px;
+  align-self: center;
 }
 .menu li a{
   text-decoration: none;
-  padding-inline: 2rem;
+  padding-inline: 1.8vw;
   color: #F8F1F1;
   padding-top: 5px;
   padding-bottom: 5px;
+  font-size: 1.2vw;
 }
 .logo img{
-  width: 6vw;
+  width: 5vw;
   height: auto;
 }
 
 .header-container{
-  height: auto;
+  height: 22vw;
+  width: 100%;
   background-image: url(../utilities/home.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,9 +62,9 @@
   color: #F8F1F1;
 }
 .header-container h1{
-  padding-top: 100px;
+  padding-top: 5vw;
   font-family: "Poppins", sans-serif;
-  font-size: 60px;
+  font-size: 6vw;
   font-weight: 700;
   text-align: center;
 }
@@ -61,91 +75,125 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 1.2vw;
   color: #F8F1F1;
 }
 .bottom-home{
-  width: auto;
+  width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-top: 10vh;
+  grid-template-columns: 2fr 2fr;
+  padding-top: 3vw;
   padding-bottom: 10vh;
   background-color: #F8F1F1;
+
 }
+
+.img_box{
+  width: auto;
+  text-align: right;
+}
+
+
 .bottom-home img{
-  display: grid;
-  padding-left: 25vh;
+  width: 40vw;
+  /* display: grid;
+  margin-top: 10px;
+  margin-right: 20px; */
 }
 .bottom-home .hero{
   display: flex;
+  width: 40vw;
   flex-direction: column;
-  justify-content: left;
-  padding-top: 15vh;
-  padding-right: 25vh;
+  justify-content: center;
+  padding-left: 15px;
+  padding-top: 5vw;
+  padding-right: 0.2vw;
 
 }
 .bottom-home .hero h2{
   font-family: "Poppins",sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 28px;
+  font-size: 2.0vw;
 }
 .bottom-home .hero h4{
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 1.3vw;
 }
 
 footer{
   background-color: #22242B;
   display: grid;
-  /*height: 3.2rem;
-  margin: 0;
   width: 100%;
-  position:fixed;
-  bottom: 0;
-  left: 0;*/
-  padding: 10px;
+  height: 7vw;
   justify-content: center;
 }
-footer ul li{
+
+.nav_footer li{
   display: inline-flex;
-  padding: 0 50px;
+  margin: 0px;
 }
-footer ul li a{
+
+.nav_footer{
+  padding: 0;
+  margin: 0;
+  height: 2.5vw;
+  padding-top: 0.5vw;
+}
+
+.nav_footer a{
   text-decoration: none;
-  color: #F8F1F1;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
-  font-size: 13px;
-}
-footer ul{
-  /*display: flex;
+  font-size: 1vw;
+  padding-right: 5vw;
   justify-content: center;
-  align-items: center;
-  gap: 3rem;*/
-  list-style: none;
+  align-items: start;
 }
-footer h6{
+.nav_footer ul{
+  display: flex;
+  /*justify-content: center; 
+  align-items: center;
+  gap: 3rem;
+  list-style: none; */
+}
+.social{
+  text-align: center;
+  height: 2.5vw;
+  justify-content: start;
+  /* padding-top: 1vw; */
+}
+.social a{
+  color: #F8F1F1;
+  display: inline-block;
+
+  width: auto;
+  text-decoration: none;
+}
+
+.social i{
+  width: 1.5vw;
+  font-size: 1.5vw;
+  /* align-items: center; */
+  margin: 0;
+  padding: 0;
+}
+
+.credits{
+  margin: 0;
+  padding: 0;
+  align-content: center;
+}
+
+.credits h6{
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 1.2vw;
   color: #F8F1F1;
   text-align: center;
-  padding-top: 10px
-}
-footer .social{
-  text-align: center;
-  padding: 0 50px;
-}
-footer .social a{
-  color: #F8F1F1;
-  display: inline-block;
-  font-size: 24px;
-  height: 40px;
-  width: 40px;
-  text-decoration: none;
 }
 
 
