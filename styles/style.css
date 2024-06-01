@@ -139,7 +139,7 @@ footer{
 .nav_footer{
   padding: 0;
   margin: 0;
-  height: 2.5vw;
+  height: 2vw;
   padding-top: 0.5vw;
 }
 
@@ -150,7 +150,6 @@ footer{
   font-size: 1vw;
   padding-right: 5vw;
   justify-content: center;
-  align-items: start;
 }
 .nav_footer ul{
   display: flex;
@@ -161,22 +160,18 @@ footer{
 }
 .social{
   text-align: center;
-  height: 2.5vw;
-  justify-content: start;
-  /* padding-top: 1vw; */
+  height: 1.5vw;
+  /* position:absolute; */
 }
+
 .social a{
   color: #F8F1F1;
-  display: inline-block;
-
-  width: auto;
+  display:inline;
   text-decoration: none;
 }
 
 .social i{
-  width: 1.5vw;
-  font-size: 1.5vw;
-  /* align-items: center; */
+  font-size: 1.2vw;
   margin: 0;
   padding: 0;
 }
@@ -185,6 +180,7 @@ footer{
   margin: 0;
   padding: 0;
   align-content: center;
+  height: 1vw;
 }
 
 .credits h6{
@@ -215,4 +211,33 @@ footer{
 .destino-4 img:hover{
   transform: scale(1.2,1.2) rotate(-4deg);
   transition-duration: 1s;
+}
+
+@media (max-width: 450px) {
+  
+  .bottom-home .hero h2{
+    font-size: 3.0vw;
+  }
+  .bottom-home .hero h4{
+    font-size: 2.0vw;
+  }
+  .header-container h1{
+    padding-top: 3vw;
+    font-size: 4vw;
+  }
+  .bottom-home img{
+    width: 40vw;
+    padding-top: 5vw;
+  }
+  .nav_footer{
+    height: 1.1vw;
+    padding-top: 0.2vw;
+  }
+  .social i{
+    font-size: 1vw;
+  }
+  .credits h6{
+    font-size: 1.1vw;
+  }
+  
 }
