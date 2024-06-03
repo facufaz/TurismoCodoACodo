@@ -85,7 +85,7 @@ main{
   padding-top: 3vw;
   padding-bottom: 10vh;
   background-color: #F8F1F1;
-
+gap: 5rem;
 }
 
 .img_box{
@@ -96,9 +96,6 @@ main{
 
 .bottom-home img{
   width: 40vw;
-  /* display: grid;
-  margin-top: 10px;
-  margin-right: 20px; */
 }
 .bottom-home .hero{
   display: flex;
@@ -130,6 +127,13 @@ footer{
   height: 7vw;
   justify-content: center;
 }
+.footer_top{
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
 
 .nav_footer li{
   display: inline-flex;
@@ -153,21 +157,20 @@ footer{
 }
 .nav_footer ul{
   display: flex;
-  /*justify-content: center; 
-  align-items: center;
-  gap: 3rem;
-  list-style: none; */
+
 }
 .social{
   text-align: center;
-  height: 1.5vw;
-  /* position:absolute; */
+ 
+  /* height: 1.5vw; */
+
 }
 
 .social a{
   color: #F8F1F1;
   display:inline;
   text-decoration: none;
+  padding-right: 2rem;
 }
 
 .social i{
@@ -176,18 +179,18 @@ footer{
   padding: 0;
 }
 
-.credits{
+.credits {
   margin: 0;
   padding: 0;
   align-content: center;
-  height: 1vw;
+  height: -1vw;
 }
 
 .credits h6{
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.2vw;
+  font-size: 3rem;
   color: #F8F1F1;
   text-align: center;
 }

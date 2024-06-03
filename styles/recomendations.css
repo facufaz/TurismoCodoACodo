@@ -10,13 +10,14 @@
 }
 
 
-.paragraph{
+.paragraph {
     display: flex;
     flex-direction: row;
     background-color: #f8f1f1;
+    gap: 17rem;
 }
 .paragraph h3{
-    padding-top: 0.2vw;
+    margin-top: 2vw;
     padding-left: 0.4vw;
     font-family: "Poppins", sans-serif;
     font-weight: 500;

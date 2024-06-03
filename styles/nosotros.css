@@ -8,7 +8,7 @@
     background-color:#f8f1f1;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1vw;
+    gap: 12rem;
     padding:5vw;
     padding-bottom: 3vw;
   }
@@ -20,11 +20,11 @@
   }
   main h3{
     font-family: "Roboto", sans-serif;
-    font-size: 1.5vw;
+    font-size: 6rem;
     font-style: normal;
     max-width: 50vw;
     font-weight: 400;
-    margin-bottom: 0.3vw;
+    margin-bottom: 4.6rem;
   }
   .faces{
     display: flex;
@@ -54,6 +54,9 @@
     font-size: 2vw;
     font-weight: 500;
     font-style: normal;
+    display: flex;
+    justify-content: center;
+    
   }
   .cara-3{
     background-image: url(../utilities/cara_3.jpg);
@@ -70,5 +73,5 @@
     background-image: url(../utilities/webp/nosotros.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 30;
+    border-radius: 30px;
    }
