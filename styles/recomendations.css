@@ -21,7 +21,7 @@
     padding-left: 0.4vw;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    font-size: 1.5vw;
+    font-size: 4rem;
     font-style: normal;
 }
 main{
@@ -47,15 +47,47 @@ p{
     margin-right: 0.8vw;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    /* font-size: 16px; */
+    font-size: 1rem;
     font-style: normal;
 }
 
-.destino p , .destino-2 p ,.destino-3 p , .destino-4 p{
-    width: 16vw;
-    font-size: 1.1vw;
+.destino p, .destino-2 p, .destino-3 p, .destino-4 p {
+    width: 83%;
+    font-size: 3rem;
 }
 
 .destino img , .destino-2 img , .destino-3 img , .destino-4 img{
     width: 16vw;
+}
+
+@media (max-width: 3700px) {
+    .recomendations-main h1 {
+        font-size: 8rem;
+        padding-bottom: 6rem;
+    }
+    .recomendations-main{
+        height: auto;
+    }
+  .paragraph{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 20rem 
+}
+}
+@media (max-width: 2340px) {
+    .paragraph{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-bottom: 5rem;
+}
+.destino img, .destino-2 img, .destino-3 img, .destino-4 img {
+    width: 80%;
+    padding-bottom: 9rem;
+
+}
+.recomendations-main h1 {
+    font-size: 10rem;
+}
 }

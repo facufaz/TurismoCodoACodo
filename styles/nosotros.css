@@ -11,6 +11,8 @@
     gap: 12rem;
     padding:5vw;
     padding-bottom: 3vw;
+    height: 83.3vh;
+    
   }
   main h1{
     margin-bottom: 0.5vw;
@@ -73,5 +75,65 @@
     background-image: url(../utilities/webp/nosotros.webp);
     background-repeat: no-repeat;
     background-size: cover;
+    
     border-radius: 30px;
+   }
+
+   @media (max-width: 3400px) {
+    main {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 4rem;
+
+      height: 106vh;
+  }
+  .nosotros-img {
+    background-size: contain;
+    border-radius: 30px;
+    width: 90vw;
+    height: -webkit-fill-available;
+}
+.main .paragraph{
+  margin-top: 3rem;
+}
+main h3 {
+  font-size: 4rem;
+  max-width: 100vw;
+padding: 4rem 0 3rem 0;
+}
+main h1 {
+  font-size: 4vw;
+ 
+}
+  }
+
+   @media (max-width: 2000px) {
+    main {
+      gap: 4rem;
+      height: 100vh;
+  }
+
+
+.faces {
+  gap: 10vw;
+}
+main h1 {
+  margin-bottom: 0.5vw;
+  font-size: 7vw;
+  margin: 4rem 0 5rem 0;
+ 
+}
+    .nosotros-img {
+ 
+      border-radius: 30px;
+      width: 90vw;
+      height: -webkit-fill-available;
+  }
+
+   }
+
+   @media (max-width: 1700px) {
+    .nosotros-img{
+      background-size: contain;
+    }
    }

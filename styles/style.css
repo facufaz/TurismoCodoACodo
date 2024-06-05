@@ -14,8 +14,8 @@
 main{
   width: 100%;
 }
-
-.menu{
+.menu {
+  display: flex;
   padding: 0 50px;
   width: 100%;
   font-family: "Poppins", sans-serif;
@@ -24,7 +24,7 @@ main{
   display: flex;
   background-color: transparent;
   font-size: 0.6rem;
-
+  justify-content: space-between;
 }
 
 .logo {
@@ -34,7 +34,8 @@ main{
   width: 70%;
 }
 
-.menu ul{
+.menu ul {
+  margin-right: 15rem;
   list-style: none;
   display: inline-flex;
   align-self: center;
@@ -121,18 +122,20 @@ gap: 5rem;
 }
 
 footer{
+  
   background-color: #22242B;
   display: grid;
   width: 100%;
   height: 7vw;
   justify-content: center;
+  height: auto;
 }
 .footer_top{
-  width: 90vw;
+  width: 70vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
+  margin: 3rem 0 4rem 0;
 }
 
 .nav_footer li{
@@ -222,6 +225,15 @@ footer{
   }
   .footer_top{
     flex-direction: column;
+    gap: 6rem;
+    width: 97vw;
+    margin: 3rem 0 5rem 0;
+  }
+  .social a {
+    padding-right: 6rem;
+  }
+  .social a i{
+    font-size: 5rem;
   }
   .bottom-home {
     display: flex;
@@ -236,7 +248,7 @@ footer{
   }
   .bottom-home .hero {
     display: flex;
-    width: 100vw;
+    width: 95vw;
     flex-direction: column;
     justify-content: center;
     padding: 8vw 18vw 8vw 18vw;
@@ -285,11 +297,10 @@ footer{
     height: 1.1vw;
     padding-top: 0.2vw;
   }
-  .social i{
-    font-size: 1vw;
-  }
+
   .credits h6{
     font-size: 1.1vw;
   }
   
 }
+
