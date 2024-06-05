@@ -17,16 +17,17 @@
   main h1{
     margin-bottom: 0.5vw;
     font-family: "Poppins", sans-serif;
-    font-size: 3vw;
+    font-size: 2rem;
     font-style: normal;
   }
   main h3{
     font-family: "Roboto", sans-serif;
-    font-size: 6rem;
+    font-size: 1.4rem;
     font-style: normal;
     max-width: 50vw;
     font-weight: 400;
     margin-bottom: 4.6rem;
+    padding-top: 3rem;
   }
   .faces{
     display: flex;
@@ -76,10 +77,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     
-    border-radius: 30px;
+    border-radius: 18px;
    }
 
-   @media (max-width: 3400px) {
+   @media (max-width: 1300px) {
     main {
       display: flex;
       flex-direction: column-reverse;
@@ -88,31 +89,31 @@
       height: 106vh;
   }
   .nosotros-img {
-    background-size: contain;
-    border-radius: 30px;
+    background-size: cover;
+    border-radius: 18px;
     width: 90vw;
-    height: -webkit-fill-available;
-}
-.main .paragraph{
-  margin-top: 3rem;
+   
+    height: 45rem
 }
 main h3 {
-  font-size: 4rem;
+  font-size: 1.2rem;
   max-width: 100vw;
-padding: 4rem 0 3rem 0;
+padding: 1rem 0 3rem 0;
 }
 main h1 {
-  font-size: 4vw;
+  font-size: 2rem;
  
 }
   }
 
-   @media (max-width: 2000px) {
+   @media (max-width: 940px) {
     main {
       gap: 4rem;
-      height: 100vh;
+        height: 127vh;
   }
-
+  .header-container {
+    height: 26vh;
+  }
 
 .faces {
   gap: 10vw;
@@ -125,15 +126,23 @@ main h1 {
 }
     .nosotros-img {
  
-      border-radius: 30px;
+  
       width: 90vw;
       height: -webkit-fill-available;
   }
 
    }
 
-   @media (max-width: 1700px) {
+   @media (max-width: 700px) {
+    main {
+    
+      height: 100vh;
+    }
     .nosotros-img{
+      height: 26rem;
       background-size: contain;
+    }
+    main h1 {
+      margin:0;
     }
    }
